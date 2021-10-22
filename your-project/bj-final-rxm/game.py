@@ -88,7 +88,7 @@ class Game:
                 total1 = 218
                 total2 = 218
             ace_count = hand_values.count('ACE')
-            if ace_count > 1 and total1 > 21:
+            if ace_count > 1 and total1 > 21 and len(hand_values) > 2:
                 for i in range(ace_count):
                     while total1 > 21:
                         total1 -= 10
