@@ -1,35 +1,49 @@
-------------
-BLACKJACK VERSION 1.0
-ALLAN LAVELL
-------------
-REQUIREMENTS:
+éste juego se creo con pycharm
+Para que arranque el programa, se necesita tener pyhton y pygame installados 
+para correr el juego, solo se necesita entrar a la carpeta, buscar el erchivo ".py" y hacerle doble click
 
-- To run the game, you need to have python (python.org) and pygame (pygame.org) installed.
+las librerias usadas en éste juego fueron:
 
-HOW TO RUN:
+Pygame= libreria usada para crear la ventana con los procesos graficos del juego
 
-LINUX
-- Open up a terminal, cd to this directory, and type
+Sys= para buscar modulos
 
-python blackjack.py
+random= para hacer que las cartas tengan un orden aleatorio 
 
-WINDOWS
-- Double click on the file blackjack.py
+os= para acceder a los archivos del sistema operativo
 
-- Open up a console, cd to this directory, and type
+las imagenes de cartas usadas en el programa, se sacaron de internet, el resto se crearon en paint y el editor de fotos de windows
 
-blackjack.py
+COMO SE JUEGA: 
 
-- An alternate method to run the game follows. In Windows Explorer, navigate to the folder where blackjack.py
-resides, right-click blackjack.py, and select "Edit With IDLE". Click on the window that has just popped up
-that contains the code, and hit F5 to run it.
+En el blackjack cada jugador juega contra el crupier. El objetivo del juego es conseguir sumar 21 puntos o al 
+menos conseguir sin pasarse un valor más cercano a 21 que el crupier.
 
-**NOTE: Exiting the program often doesn't go well with IDLE, and the whole thing will probably freeze up,
-then crash. This causes no harm, but it's extremely annoying. Therefore, I recommend running the game from the
-command line, where no such errors occur.
+Los valores de las cartas en el blackjack son los siguientes:
 
-DOCUMENTATION: 
+Las cartas del 2 al 10 valen su valor
+Las figuras valen 10
+El AS vale 1 u 11 dependiendo de lo que le convenga al jugador
 
-- The documentation included with this project is in the "docs" folder, in the form of a PDF file.
+La jugada máxima del juego es blackjack, un jugador tiene blackjack cuando sus dos cartas iniciales sumen 21, 
+es decir, sean un AS y una carta con valor 10 (10 o cualquier figura).
+La suma de 21 con más de dos cartas no es blackjack. La suma de 21 con dos cartas tras separar una mano, de 
+dos Ases o dos cartas con valor 10, tampoco es blackjack.
 
-This game won first place in the Dalhousie University High School Programming Competition. Yay! :D
+Al inicio de la partida cada jugador deberá realizar su apuesta inicial, después de que todos los jugadores hayan 
+realizados sus apuestas el crupier dirá “no va más” para cerrar la ronda de apuestas y empezar con el reparto de cartas.
+
+Al inicio de la partida cada jugador deberá realizar su apuesta inicial, después de que todos los jugadores hayan realizados 
+sus apuestas el crupier dirá “no va más” para cerrar la ronda de apuestas y empezar con el reparto de cartas.
+
+Al inicio de la partida cada jugador deberá realizar su apuesta inicial, después de que todos los jugadores hayan realizados sus 
+apuestas el crupier cierra la ronda de apuestas y empezar con el reparto de cartas.
+
+un jugador podrá pedir las cartas que deseen mientras su mano este por debajo de los 21 puntos. Si al pedir carta el jugador se 
+pasa de 21, el crupier el retirará las cartas y las recogerá sus apuestas.
+
+un jugador se puede plantar en cualquier momento. Es decir, que ya no quiere mas cartas en su mano
+
+un jugador puede doblar su apuesta. Solo se puede doblar la apuesta al principio del turno, después de recibir 
+las cartas iniciales. Para doblar la apuesta se debe colocar otra apuesta del mismo valor que la apuesta inicial.
+ Cuando un jugador dobla su apuesta solo recibirá una carta más, sin la posibilidad de pedir mas. 
