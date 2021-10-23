@@ -47,3 +47,6 @@ un jugador se puede plantar en cualquier momento. Es decir, que ya no quiere mas
 un jugador puede doblar su apuesta. Solo se puede doblar la apuesta al principio del turno, después de recibir 
 las cartas iniciales. Para doblar la apuesta se debe colocar otra apuesta del mismo valor que la apuesta inicial.
  Cuando un jugador dobla su apuesta solo recibirá una carta más, sin la posibilidad de pedir mas. 
+ 
+ 
+ Link a slides: https://docs.google.com/presentation/d/1R67kyhD_YmLNRusFoFOVe0LvUBCmjFQv/edit?usp=sharing&ouid=106752331250964976241&rtpof=true&sd=true
